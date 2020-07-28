@@ -23,6 +23,7 @@ setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 900);
 
+// makes sures the the terminal line is on a new line
 setTimeout(() => console.log(), 900);
 
 // setTimeout(() => {
